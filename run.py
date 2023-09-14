@@ -3,8 +3,8 @@ from org_vids import sort
 import os
 
 try:
-    os.mkdir("./output")
-    os.mkdir("./input")
+    os.mkdir("./org_vids/output")
+    os.mkdir("./org_vids/input")
 except FileExistsError:
     pass
 
